@@ -1,0 +1,38 @@
+body{
+	background-image: url("https://i.pinimg.com/originals/df/55/1a/df551ad678b3e3cf1c37e88ca202eb56.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:#222;
+	font-family:"Lucida Console", Courier, monospace;
+}
+header{
+	background-color:#111;
+
+}
+header nav{
+	max-width:1200px;
+	margin:0 auto;
+}
+header nav ul{
+	padding:0;
+	margin:0;
+	overflow: auto;
+
+}
+header nav ul li{
+	list-style:none;
+	float:left;
+
+}
+
+header nav ul li a{
+	color:#ccc;
+	padding:20px;
+	float:left;
+	font-size:14px;
+	text-decoration: none;
+}
+
+header nav ul li a:hover{
+	color:deeppink;
+}
