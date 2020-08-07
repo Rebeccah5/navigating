@@ -38,7 +38,11 @@ header nav ul li a{
 header nav ul li a:hover{
 	color:deeppink;
 }
-.into h1{
+h2{
+	text-align: center;
+	color: orange;
+}
+.intro h1{
 	text-align: center;
 	font-size: 17px;
 	color: white;
@@ -60,6 +64,14 @@ header nav ul li a:hover{
 .home ul{
 color: orange;
 text-align: center;
+font-size: 20px;
+}
+.life2{
+	text-align: center;
+}
+.life{
+	text-align: center;
+}
 }
 .visuals{
 	color: white;
