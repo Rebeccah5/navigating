@@ -1,9 +1,11 @@
 body{
-	background-image: url("https://i.pinimg.com/originals/df/55/1a/df551ad678b3e3cf1c37e88ca202eb56.png");
+	background-image: url("https://www.pixel4k.com/wp-content/uploads/2018/10/alone-road-sun-4k_1540134802.jpg");
+
 	background-repeat: no-repeat;
 	background-size: cover;
 	color:#222;
-	font-family:"Lucida Console", Courier, monospace;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 24px;
 }
 header{
 	background-color:#111;
@@ -35,4 +37,41 @@ header nav ul li a{
 
 header nav ul li a:hover{
 	color:deeppink;
+}
+.into h1{
+	text-align: center;
+	font-size: 17px;
+	color: white;
+	margin-bottom: 15px;
+	margin-right: 15px;
+
+}
+
+.home{
+	color: white;
+}
+.home h1{
+	text-align: center;
+	color: orange;
+}
+.home h3{
+	color: orange;
+}
+.home ul{
+color: orange;
+text-align: center;
+}
+.visuals{
+	color: white;
+}
+.visuals h1{
+	color: orange;
+}
+.visuals h4{
+	color: orange;
+}
+.visuals li{
+	color: white;
+	text-align: center;
+
 }
