@@ -1,12 +1,15 @@
 body{
+	/*color:#222;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 24px;*/
+}
+.intro{
 	background-image: url("https://www.pixel4k.com/wp-content/uploads/2018/10/alone-road-sun-4k_1540134802.jpg");
 
 	background-repeat: no-repeat;
 	background-size: cover;
-	color:#222;
-	font-family:"Times New Roman", Times, serif;
-	font-size: 24px;
 }
+
 header{
 	background-color:#111;
 
@@ -42,17 +45,20 @@ h2{
 	text-align: center;
 	color: orange;
 }
-.intro h1{
+.intron h1{
 	text-align: center;
-	font-size: 17px;
+	font-size: 50px;
 	color: white;
-	margin-bottom: 15px;
+	top: 50%;
+	margin-top: 30px;
+	/*margin-bottom: 15px;
 	margin-right: 15px;
-
+*/
 }
 
 .home{
-	color: white;
+	color: grey;
+
 }
 .home h1{
 	text-align: center;
@@ -66,6 +72,13 @@ color: orange;
 text-align: center;
 font-size: 20px;
 }
+.content h1{
+padding-top: 70px;
+
+
+}
+
+}
 
 .life2{
 	text-align: center;
@@ -76,9 +89,13 @@ font-size: 20px;
 	text-align: center;
 	
 }
+.visintro{
+	background-color: #ccc;
+}
 
 .visuals{
-	color: white;
+	color: grey;
+	text-align: center;
 }
 .visuals h1{
 	color: orange;
@@ -88,29 +105,57 @@ font-size: 20px;
 	font-size: 19px;
 }
 .visuals li{
-	color: white;
+	color: grey;
 	text-align: center;
 
 }
+
+.emotions{
+  width:200px;
+  text-align:left;
+  display:block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  float:left;
+
+}
+
+
+.doubt{
+  width:200px;
+  text-align:left;
+  display:block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  float:right;
+   padding-right: 180px;
+   color: grey;
+
+}
+
 .culture{
-	color: white;
+	color: grey;
 
 }
 .culture ol{
 	color: orange;
 }
 .fruits{
-	padding-bottom: : 500px;
-	position: absolute;
-	color: white
+	float:left;
+	
+	color: grey;
 }
 .laptop{
-	padding-left:500px;
-	position: absolute;
-	color: white;
+
+	float:left;
+	color: grey;
 }
 .palm{
-	padding-left: 950px;
-	position: absolute;
-	color: white;
+	
+	float:left;
+	color: grey;
 }
